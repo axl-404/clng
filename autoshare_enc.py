@@ -105,24 +105,7 @@ def logo_menu():
 
 
 ###----------[ LOGIN MINU ]----------###
-
-def login():
-    os.system("clear")
-    print("""
-
-     \x1b[38;5;46m888888 8888888b.         d8888 8888888b.  
-     \x1b[38;5;47   "88b 888   Y88b       d88888 888  "Y88b 
-     \x1b[38;5;48m     888 888    888      d88P888 888    888 
-     \x1b[38;5;46m     888 888   d88P     d88P 888 888    888 
-     \x1b[38;5;46m     888 8888888P"     d88P  888 888    888 
-     \x1b[38;5;46m     888 888 T88b     d88P   888 888    888 
-     \x1b[38;5;46m     88P 888  T88b   d8888888888 888  .d88P 
-     \x1b[38;5;46m     888 888   T88b d88P     888 8888888P"  
-     \x1b[38;5;46m   .d88P                                    
-     \x1b[38;5;46m .d88P"                                     
-      \x1b[38;5;46m888P"
-                                                         
-                                                        
+                               
     \33[1;32m====================================================
     \033[1;95m[\033[1;93m[>]\033[1;95m]\033[1;93m AUTHOR  \033[1;91m : \033[1;92mRed
     \033[1;95m[\033[1;93m[>]\033[1;95m]\033[1;93m FACEBOOK\033[1;91m : \033[1;93mRed
@@ -131,10 +114,10 @@ def login():
     \033[1;95m[\033[1;93m[>]\033[1;95m]\033[1;93m VERSION \033[1;91m : \033[1;91m1.0
     \33[1;32m====================================================
     """)
-    cetak(nel(f'\n \t {H2}  FACEBOOK AUTOSHARE TOOLS \n\n \t\t {H2}~[{K2} R{K2}E{K2}D{K2}T{K2}O{K2}O{K2}L {H2}]~',
-              title=f'{P2}  {H2}[{K2} R{K2}E{K2}D {K2}T{K2}E{K2}R{K2}M{K2}U{K2}X {K2}H{K2}E{K2}L{K2}P{K2}I{K2}N{K2}G {K2}Z{K2}O{K2}N{K2}E {H2}]',
+cetak(nel(f'\n \t {H2} FACEBOOK AUTOSHARE TOOLS \n\n \t\t {H2}~[{K2} R{K2}E{K2}D{K2}T{K2}O{K2}O{K2}L {H2}]~',
+title=f'{P2}  {H2}[{K2} R{K2}E{K2}D {K2}T{K2}E{K2}R{K2}M{K2}U{K2}X {K2}H{K2}E{K2}L{K2}P{K2}I{K2}N{K2}G {K2}Z{K2}O{K2}N{K2}E {H2}]',
               width=54, padding=(1, 4), style='blue'))
-    cetak(nel(f'\t\t{H2}USE FRESH COOKIE \n\n \t\t  {N2} FRESH COOKIE ', subtitle=f'{P2}┌─[ {K2}Cookies Room ]',
+cetak(nel(f'\t\t{H2}USE FRESH COOKIE \n\n \t\t  {N2} FRESH COOKIE ', subtitle=f'{P2}┌─[ {K2}Cookies Room ]',
               subtitle_align='left', width=54, padding=1, style='blue'))
     cookie = input(f"{P}   └──> : {H}")
     try:
