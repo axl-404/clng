@@ -84,7 +84,7 @@ kom1 = ("Keren banget bangg:v")
 
 ###----------[ INI LOGO ]----------###
 def logo_menu():
-    li = '\033[1;94m        HI THERE USER WELCOME\n'
+    li = '\033[1;94m              HI THERE USER WELCOME\n'
     lo = mark(li, style='white')
     sol().print(lo, style='blue')
     banner = f'''{H2}    _  _   _ _____ ___    ___ _  _   _   ___ ___ 
