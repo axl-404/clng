@@ -84,7 +84,7 @@ kom1 = ("Keren banget bangg:v")
 
 ###----------[ INI LOGO ]----------###
 def logo_menu():
-    li = '\033[1;94m              HI THERE USER WELCOME\n'
+    li = '\033[1;94m HI THERE USER WELCOME\n'
     lo = mark(li, style='white')
     sol().print(lo, style='blue')
     banner = f'''{H2}    _  _   _ _____ ___    ___ _  _   _   ___ ___ 
@@ -121,7 +121,8 @@ def login():
      \x1b[38;5;46m   .d88P                                    
      \x1b[38;5;46m .d88P"                                     
       \x1b[38;5;46m888P"
-    
+                                                         
+                                                        
     \33[1;32m====================================================
     \033[1;95m[\033[1;93m[>]\033[1;95m]\033[1;93m AUTHOR  \033[1;91m : \033[1;92mRed
     \033[1;95m[\033[1;93m[>]\033[1;95m]\033[1;93m FACEBOOK\033[1;91m : \033[1;93mRed
@@ -130,10 +131,10 @@ def login():
     \033[1;95m[\033[1;93m[>]\033[1;95m]\033[1;93m VERSION \033[1;91m : \033[1;91m1.0
     \33[1;32m====================================================
     """)
-cetak(nel(f'\n \t {H2} FACEBOOK AUTOSHARE TOOLS \n\n \t\t {H2}~[{K2} R{K2}E{K2}D{K2}T{K2}O{K2}O{K2}L {H2}]~',
-title=f'{P2}  {H2}[{K2} R{K2}E{K2}D {K2}T{K2}E{K2}R{K2}M{K2}U{K2}X {K2}H{K2}E{K2}L{K2}P{K2}I{K2}N{K2}G {K2}Z{K2}O{K2}N{K2}E {H2}]',
+    cetak(nel(f'\n \t {H2}  FACEBOOK AUTOSHARE TOOLS \n\n \t\t {H2}~[{K2} R{K2}E{K2}D{K2}T{K2}O{K2}O{K2}L {H2}]~',
+              title=f'{P2}  {H2}[{K2} R{K2}E{K2}D {K2}T{K2}E{K2}R{K2}M{K2}U{K2}X {K2}H{K2}E{K2}L{K2}P{K2}I{K2}N{K2}G {K2}Z{K2}O{K2}N{K2}E {H2}]',
               width=54, padding=(1, 4), style='blue'))
-cetak(nel(f'\t\t{H2}USE FRESH COOKIE \n\n \t\t  {N2} FRESH COOKIE ', subtitle=f'{P2}┌─[ {K2}Cookies Room ]',
+    cetak(nel(f'\t\t{H2}USE FRESH COOKIE \n\n \t\t  {N2} FRESH COOKIE ', subtitle=f'{P2}┌─[ {K2}Cookies Room ]',
               subtitle_align='left', width=54, padding=1, style='blue'))
     cookie = input(f"{P}   └──> : {H}")
     try:
