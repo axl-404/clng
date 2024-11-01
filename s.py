@@ -80,14 +80,14 @@ def logo_menu():
  lo = mark(li, style='white')
  sol().print(lo, style='blue')
  banner = f''' 
- \x1b[38;5;46m8888888b. Y88b   d88P 8888888b.          
- \x1b[38;5;47m888   Y88b Y88b d88P  888   Y88b       
- \x1b[38;5;48m888    888  Y88o88P   888    888      
- \x1b[38;5;46m888   d88P   Y888P    888   d88P       
- \x1b[38;5;46m8888888P"     888     8888888P"      
- \x1b[38;5;46m888           888     888 T88b        
- \x1b[38;5;46m888           888     888  T88b        
- \x1b[38;5;46m888           888     888   T88b  '''   
+ \x1b[38;5;46m8888888b. Y88b   d88P 8888888b.
+ \x1b[38;5;47m888   Y88b Y88b d88P  888   Y88b
+ \x1b[38;5;48m888    888  Y88o88P   888    888
+ \x1b[38;5;46m888   d88P   Y888P    888   d88P
+ \x1b[38;5;46m8888888P"     888     8888888P"
+ \x1b[38;5;46m888           888     888 T88b
+ \x1b[38;5;46m888           888     888  T88b
+ \x1b[38;5;46m888           888     888   T88b  '''
  cetak(nel(banner,title=f'{P2} {H2}[ {P2}••• {H2}]',subtitle_align='left',padding=1,style='blue'))
 	
 ###----------[ MENU LOGIN ]----------###	
