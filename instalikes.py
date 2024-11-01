@@ -7,6 +7,8 @@ import os
 import sys
 import time
 from random import randint
+from user_agent import generate_user_agent
+from getuseragent import UserAgent
 import pyfiglet
 import webbrowser
 os.system('xdg-open https://t.me/DARK_TEAM_LMNx9')
