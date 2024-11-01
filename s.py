@@ -92,8 +92,8 @@ def logo_menu():
 ###----------[ MENU LOGIN ]----------###	
 def login():
 	os.system("clear")
-	cetak(nel(f'   {H2}    LOGIN COOKIES FIRST\n\n      {H2}       [ GITHUB : SECRET ]',title=f'{P2} {H2}[ {OT}    WELCOME {H2}]',width=54,padding=(1,4),style='blue'))
-	cetak(nel(f'{P2}   {H2}   TAKE COOKIES FROM KIWI BROWSER',subtitle=f'{PT}┌─[ {OT} COOKIES {PT}]',subtitle_align='left',width=54,padding=1,style='blue'))
+	cetak(nel(f'   {H2}      LOGIN COOKIES FIRST\n\n      {H2}       [ GITHUB : SECRET ]',title=f'{P2} {H2}[ {OT} WELCOME {H2}]',width=54,padding=(1,4),style='blue'))
+	cetak(nel(f'{P2}   {H2}     TAKE COOKIES FROM KIWI BROWSER',subtitle=f'{PT}┌─[ {OT} COOKIES {PT}]',subtitle_align='left',width=54,padding=1,style='blue'))
 	cookie = input(f"{P}   └──> : {H}")
 	try:
 		data = ses.get("https://business.facebook.com/business_locations", headers = {"user-agent": "Mozilla/5.0 (Linux; Android 8.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","content-type":"text/html; charset=utf-8"}, cookies = {"cookie":cookie})
