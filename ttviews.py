@@ -16,23 +16,23 @@ except ModuleNotFoundError:
     os.system('pip install datetime')
 
 class Output:
-    reset = Fore.RESET
-    black = Fore.BLACK
-    red = Fore.RED
-    green = Fore.GREEN
-    yellow = Fore.YELLOW
-    blue = Fore.BLUE
-    magenta = Fore.MAGENTA
-    cyan = Fore.CYAN
-    white = Fore.WHITE
-    gray = Fore.LIGHTBLACK_EX
-    light_gray = Fore.LIGHTWHITE_EX
-    light_red = Fore.LIGHTRED_EX
-    light_green = Fore.LIGHTGREEN_EX
-    light_yellow = Fore.LIGHTYELLOW_EX
-    light_blue = Fore.LIGHTBLUE_EX
-    light_magenta = Fore.LIGHTMAGENTA_EX
-    light_cyan = Fore.LIGHTCYAN_EX
+    reset = RESET
+    black = BLACK
+    red = RED
+    green = GREEN
+    yellow = YELLOW
+    blue = BLUE
+    magenta = MAGENTA
+    cyan = CYAN
+    white = WHITE
+    gray = LIGHTBLACK_EX
+    light_gray = LIGHTWHITE_EX
+    light_red = LIGHTRED_EX
+    light_green = LIGHTGREEN_EX
+    light_yellow = LIGHTYELLOW_EX
+    light_blue = LIGHTBLUE_EX
+    light_magenta = LIGHTMAGENTA_EX
+    light_cyan = LIGHTCYAN_EX
 
 proxies = Session().get('https://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&country=all&simplified=true').text
 with open('proxies.txt', 'w') as file:
