@@ -1,7 +1,6 @@
 import art
 import time
 from inquirer import Text, List, prompt
-from Zefoy import ZefoyAutomator
 
 
 print(LOGO_ART)
