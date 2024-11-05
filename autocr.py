@@ -345,7 +345,8 @@ class create_fb:
     def scrap1(self): #--> Post Login Awal
         req = bs(self.xyz.get('https://m.facebook.com/reg/?is_two_steps_login=0&cid=103&refsrc=deprecated&soft=hjk',headers=self.headers_get).content,'html.parser')
         fom = req.find('form',{'method':'post'})
-        data = 
+        data = {
             'lsd'                        : re.search('name="lsd" type="hidden" value="(.*?)"',               str(fom)).group(1),
             'jazoest'                    : re.search('name="jazoest" type="hidden" value="(.*?)"',           str(fom)).group(1),
             'fb_dtsg'                    : re.search('{"dtsg":{"token":"(.*?)"'),                
+        }
