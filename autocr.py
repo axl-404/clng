@@ -27,7 +27,7 @@ names = [
     ]
 ];
 randomFirstName = names['first'][array_rand(names['first'])];
-randomName = names['mid'][array_rand(names['mid'])].' '.names['last'][array_rand(names['last'])];
+randomName = names['mid'][array_rand(names['mid'])].'.names['last'][array_rand(names['last'])];
 password = 'PAss'.rand(0000,9999999).'?#@';
 fullName = randomFirstName.' '.randomName;
 md5Time = md5(time());
