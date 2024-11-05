@@ -16,22 +16,6 @@ except ModuleNotFoundError:
     os.system('pip install datetime')
 
 class Output:
-    black
-    red
-    green
-    yellow
-    blue
-    magenta
-    cyan
-    white
-    gray
-    light_gray
-    light_red
-    light_green
-    light_yellow
-    light_blue
-    light_magenta
-    light_cyan
 
 proxies = Session().get('https://api.proxyscrape.com/v2/?request=getproxies&protocol=http&timeout=10000&country=all&simplified=true').text
 with open('proxies.txt', 'w') as file:
