@@ -16,7 +16,6 @@ except ModuleNotFoundError:
     os.system('pip install datetime')
 
 class Output:
-    reset = RESET
     black = BLACK
     red = RED
     green = GREEN
