@@ -16,13 +16,13 @@ email_prefix = [
 
 randomBirthDay = date('Y-m-d', rand(strtotime('1980-01-01'), strtotime('1995-12-30')));
 names = [
-    'first' => [
+    'first' > [
         'JAMES', 'JOHN', 'ROBERT', 'MICHAEL', 'WILLIAM', 'DAVID',
     ],
-    'last' => [
+    'last' > [
         'SMITH', 'JOHNSON', 'WILLIAMS', 'BROWN', 'JONES', 'MILLER'
     ],
-    'mid' => [
+    'mid' > [
         'Alexander', 'Anthony', 'Charles', 'Dash', 'David', 'Edward'
     ]
 ];
