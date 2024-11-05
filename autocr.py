@@ -348,4 +348,4 @@ class create_fb:
         data = {
             'lsd'                        : re.search('name="lsd" type="hidden" value="(.*?)"',               str(fom)).group(1),
             'jazoest'                    : re.search('name="jazoest" type="hidden" value="(.*?)"',           str(fom)).group(1),
-            'fb_dtsg'                    : re.search('{"dtsg":{"token":"(.*?)",',                
+            'fb_dtsg'                    : re.search('{"dtsg":{"token":"(.*?)"',                
