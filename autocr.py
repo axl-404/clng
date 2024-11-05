@@ -1,8 +1,8 @@
 set_time_limit(0);
 
 app = [
-    'api_key' => '882a8490361da98702bf97a021ddc14d',
-    'secret' => '62f8ce9f74b12f84c123cc23437a4a32'
+    'api_key' > '882a8490361da98702bf97a021ddc14d',
+    'secret' > '62f8ce9f74b12f84c123cc23437a4a32'
 ];
 
 email_prefix = [
