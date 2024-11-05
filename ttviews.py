@@ -454,5 +454,3 @@ class TikTokBooster:
                 return
             elif us == 'n':
                 sys.exit()
-
-    def _show_banner(s):
