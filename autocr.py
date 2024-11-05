@@ -150,7 +150,7 @@ def cvt(st,ran):
 
 #--> Logo
 def logo():
-    print('''PYRO'''
+    print('''PYRO''')
 
 #--> Main Menu
 class menu:
