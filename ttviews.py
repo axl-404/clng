@@ -2,9 +2,6 @@ import art
 import time
 from inquirer import Text, List, prompt
 
-
-print(''LOGO_ART,'')
-
 questions = [
     Text("post_url", message=art.input_style + "Enter Tiktok URL here"),
     List("type", message=art.input_style + "What stat do you want to bot (Use arrows to choose)?",
