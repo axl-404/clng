@@ -488,10 +488,3 @@ def auto_create_page():
               'x-fb-friendly-name': 'AdditionalProfilePlusEditMutation',
               'x-fb-lsd': 'VvOG1zo3ie0zBti8fQ6zUf'
           }
-
-          data = {
-              'fb_dtsg': fb_dtsg,
-              'jazoest': jazoest,
-              'fb_api_caller_class': 'RelayModern',
-              'fb_api_req_friendly_name': 'AdditionalProfilePlusCreationMutation',
-              'variables': '{"input":{"bio":"","categories":["1062586164506537"],"creation_source":"comet","name":"%s","page_referrer":"launch_point","actor_id":"100037533160611","client_mutation_id":"2"}}' % (page_name)}
